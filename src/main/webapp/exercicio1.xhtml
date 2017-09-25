@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<h:title>Insert title here</h:title>
+</h:head>
+<h:body>
+	<h:form>
+		<h:commandButton id="somar" value="Somar" 
+		action="#{calculadora.somar()}"/>
+		<h:commandButton id="subtrair" value="Subtrair" 
+		action="#{calculadora.subtrair()}"/>
+		<h:commandButton id="dividir" value="Dividir" 
+		action="#{calculadora.dividir()}"/>
+		<h:commandButton id="multiplicar" value="Multiplicar" 
+		action="#{calculadora.multiplicar()}"/>
+	</h:form>
+</h:body>
+</html>
